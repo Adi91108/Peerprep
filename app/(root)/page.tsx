@@ -21,7 +21,7 @@ const page = async () => {
     getInterviewsByUserId(user?.id!),
     getLatestInterviews({ userId: user?.id! }),
   ]);
-  console.log(userInterviews);
+  // console.log(userInterviews);
   // const userInterviews = await getInterviewByUserId(user?.id!);
   // const latestInterviews = await getLatestInterviews(user?.id!);
 
